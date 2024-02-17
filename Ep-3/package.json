@@ -1,0 +1,24 @@
+{
+  "name": "ep-3",
+  "version": "1.0.0",
+  "description": "**Welcome to the documentation for your project! These notes are designed to provide you with a clear understanding of key concepts related to npm, package.json, bundlers, and dependencies.**",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browsersList": [
+    "last 2 Chrome versions"
+  ]
+}

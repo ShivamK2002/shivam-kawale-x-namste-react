@@ -40,4 +40,28 @@ This resolves the classic "It works on my machine but not on production" dilemma
 
 - **Security:** Never put anything reproducible, especially sensitive information, on GitHub.
 
-_These notes aim to be a quick reference guide for your project's key concepts. Happy coding!_
+## NPX
+
+`npx` - executing the package directly
+
+## CDN
+
+- `cdn` links is not a preferred way as its a costly operation as we need to make a network call to get a package
+
+## Parcel - more than just a bundler
+
+- HMR (HOT MODULE REPLACEMENT)
+- Local Server
+- Dev build
+- File watching algo written in cpp
+- Caching (Faster build)
+- Bundling
+- Minification
+- Compressing
+- Code splitting
+- Differential Bundling- to support older browser
+- Consistent Hashing
+- Tree Shaking- removing of unused code
+- Different dev and prod build
+
+  _These notes aim to be a quick reference guide for your project's key concepts. Happy coding!_
